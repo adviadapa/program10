@@ -12,6 +12,6 @@ jobs:
          with:
            java-version: '17'
            distribution: 'temurin'
-       -   name: Build and Test
-           run: -mvn -B clean test
+       - name: Build and Test
+         run: -mvn -B clean test
         
